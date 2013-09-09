@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cerca carte Magic</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1 align="center">Cerca carte Magic</h1>
+	
+<div id="bottomContainer">
+	<div id="bottomBox">
+		<p>
+		Nome carta = <input type="text" size="50" name="nome" id="nome" value="" />
+		<input type="button" value="Immagine" onclick="immagine();" />
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	//funzione che apre una pagina con l'immagine della carta selezionata e i prezzi di essa
+	function immagine(){
+		var nome = document.getElementById("nome").text;
+		if(!(Blacklist(nome))){
+			
+		}
+	}
+	//funzione che verifica che il nome della carta non sia presente nella Black List
+	function Blacklist(nome){
+		
+	}
+</script>
+
+</body>
+</html>
